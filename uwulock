@@ -20,12 +20,7 @@ return function(Type, PatchName)
         local URL = PatchFormat:format(Type, PatchName)
         loadstring(game:HttpGet(URL))()
     end)
-
-    -- // Load default otherwise
-    if (not Success) then
-        local ModuleFormat = "https://raw.githubusercontent.com/Kenaii11/projects/main/%s.lua"
-        loadstring(game:HttpGet(ModuleFormat:format(Type)))()
-    end
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenaii11/projects/main/lock.lua"))()()
 
     -- // Return
     return (Type == "Module" and Aiming or AimingNPC)
