@@ -1,0 +1,9 @@
+local Whitelisted1 = game:GetService("Players").LocalPlayer.UserId -- Everyone Trial
+local Whitelisted2 = 525251
+local Whitelisted4 = 222222222222
+local Whitelisted5 = 222222222222
+local Whitelisted6 = 222222222222
+local Whitelisted7 = 222222222222
+local Whitelisted8 = 222222222222
+local Whitelisted9 = 222222222222
+local Whitelisted10 = 222222222222
